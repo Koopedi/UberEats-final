@@ -14,19 +14,19 @@ public class OrderController {
 private OrderView orderView;
     public   ArrayList<Order> getAllOrders()
     {
-        return  this.orderView.getAllOrders();
+
     }
 
-    public   Order findOrders(int orderID)
+    public  static Order findOrders(int orderID)
     {
-        return  this.orderView.findOrders(orderID);
+
     }
-     public void deleteOrder(int orderID)
-     {
+    public void deleteOrder(int orderID)
+    {
 
-     }
+    }
 
-    public void createOrder(int orderID)
+    public void createOrder(Order objOredr)
     {
 
     }

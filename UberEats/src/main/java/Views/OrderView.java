@@ -2,6 +2,7 @@ package Views;
 
 import DataAccess.OrderDA;
 import Entities.Order;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 
@@ -9,23 +10,25 @@ import java.util.ArrayList;
     public class OrderView {
     @Autowired
     private static OrderDA orderDA;
-    public   ArrayList<Order> getAllOrders()
-    {
-    return this.orderDA.getAllOrders();
-    }
 
-    public   Order findOrders(int orderID)
-    {
-    return  this.orderDA.findOrders(orderID);
-    }
-    public void deleteOrder(int orderID)
-    {
 
-    }
+        public   ArrayList<Order> getAllOrders()
+        {
 
-    public void createOrder(int orderID)
-    {
+        }
 
-    }
+        public  static Order findOrders(int orderID)
+        {
+
+        }
+        public void deleteOrder(int orderID)
+        {
+
+        }
+
+        public void createOrder(Order objOredr)
+        {
+
+        }
 
 }

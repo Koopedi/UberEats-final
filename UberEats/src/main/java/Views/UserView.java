@@ -10,25 +10,21 @@ import java.util.ArrayList;
 public class UserView {
     @Autowired
    private UserDA userDA;
-    public  void AddNewUser(User objUse)
-    {
+ public  void AddNewUser(User objUser)
+ {
 
-    }
-    public void updateUser(User objUser)
-    {
+ }
+ public void updateUser(User objUser)
+ {
 
-    }
+ }
 
-    public void deleteUser(String userName)
-    {
+ public void deleteUser(String userName)
+ {
 
-    }
-    public  ArrayList<User> getAllUsers()
-    {
-//return this.userDA.g
-    }
-    public   User findUser(String userName)
-    {
+ }
+ public  boolean Login(String userName,String password)
+ {
 
-    }
+ }
 }

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class UserController {
 
 
-    public  void AddNewUser(User objUse)
+    public  void AddNewUser(User objUser)
     {
 
     }
@@ -20,12 +20,9 @@ public class UserController {
     {
 
     }
-    public static ArrayList<User> getAllUsers()
+    public  boolean Login(String userName,String password)
     {
 
-    }
-    public static  User findUser(String userName)
-    {
-
+        //return true;
     }
 }
